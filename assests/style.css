@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    
+    background-color: black;
+    background-size: cover;
+    background-position:center;
+    float: right;
+}
+span{
+    color: #f9004d;
+}
+.logo{
+    color:white ;
+    font-size: 35px;
+    letter-spacing: 1px;
+    padding-left: 30px;
+    
+}
+.header-list{
+    text-align: right;
+    padding-right: 40px;
+
+    
+}
+.header-list li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+   
+} 
+.header-list li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-list li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #f9004d;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000,0px 0px 15px #858585;
+    top: 6px;
+    right:6px
+}
+.newslatter form input:last-child:active{
+    transform: scale(0.9)
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    /* background: color #191919; */
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+
+}
+.about-text{
+    width: 550px;
+    color: white;
+
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.skill{
+    background:#101010;
+    padding: 100px 0px;
+    width: 100%;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: ce;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.para{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+   
+    margin-bottom: 25px;
+}
+.para a{
+    margin-top: 10px;
+}
+.card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 10px;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.contact-me .buttoncon{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+.contact-me .buttoncon:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: colomn;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    padding-top: 6px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition:  .3s;
+}
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
+/* .contact-me{
+    border-width: 10px;
+    backdrop-filter: blur(40px);
+     box-shadow: 0px 0px 14px rgb(94, 179, 179); 
+    display: inline-block;
+    border: 2px solid #f9004d;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 190px;
+    border-radius: 5px;
+    width: 350px;
+    margin-bottom: 80px;
+
+}
+.contact-me h2{
+    color:#f9004d;
+    font-style: italic;
+}
+
+ */
+.project{
+    text-align: center;
+    background-color: rgb(26, 25, 25);
+   
+    padding: 20px;
+    border: 1px solid #f9004d;
+    box-shadow: 0px 0px 18px #f9004d; 
+    /* box-shadow: -15px -15px 15px #f9004d;  */
+}
+.project h2{
+    color: #f9004d;
+    font-size: 45px;
+    padding: 5px;
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+.project h2:hover{
+    color: #b14668;
+    letter-spacing: 30px;
+}
+/* .project li{
+    color: white;
+    font-size: 30px;
+
+} */
+.project p{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: justify;
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    padding-left:38%;
+}
+    
