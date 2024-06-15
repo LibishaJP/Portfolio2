@@ -25,7 +25,7 @@ span{
 }
 .logo{
     color:white ;
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 1px;
     padding-left: 30px;
     
@@ -46,15 +46,18 @@ span{
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
 }
 .header-list li a:hover{
     color: #f9004d;
+    border-top: 2px solid white;
     transition: .4s;
+    padding-top: 5px;
 }
 .content{
     position: absolute;
-    top: 50%;
-    left: 20%;
+    top: 47%;
+    left: 22%;
     transform: translate(-50%);
 }
 h1{
