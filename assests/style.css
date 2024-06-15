@@ -347,4 +347,30 @@ footer p{
     display: flex;
     padding-left:38%;
 }
+@media screen and (max-width:600px)
+{
+    .header{
+        margin-right: 0;
+    }
+    .about{
+        width: 1030px;
+    
+    }
+    .about p{
+        width: 100%;
+        margin-right: 10px;
+        padding: 20px;
+        padding-right: 20px;
+    }
+    body{
+        width: 1000px;
+    }
+    .content{
+        /* padding-left: 80px; */
+        margin-left: 50%;
+    }
+    
+    
+}
+    
     
