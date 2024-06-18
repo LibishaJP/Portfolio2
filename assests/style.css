@@ -51,12 +51,12 @@ span{
 .header-list li a:hover{
     color: #f9004d;
     border-top: 2px solid white;
-    transition: .4s;
+    transition: .2s;
     padding-top: 5px;
 }
 .content{
     position: absolute;
-    top: 47%;
+    top: 45%;
     left: 22%;
     transform: translate(-50%);
 }
@@ -149,6 +149,9 @@ h4{
     font-size: 18px;
     margin-bottom: 45px;
 }
+.button a{
+    color: white;
+}
 button{
     background-color: #f9004d;
     color: white;
@@ -181,6 +184,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     min-height: 400px;
+    gap: 40px;
 }
 .card{
     height: 365px;
@@ -320,43 +324,51 @@ footer p{
     background-color: rgb(26, 25, 25);
    
     padding: 20px;
-    border: 1px solid #f9004d;
-    box-shadow: 0px 0px 18px #f9004d; 
+    height: 620px;
+    /* border: 1px solid #47232f;
+    box-shadow: 0px 0px 18px #492430; */
     /* box-shadow: -15px -15px 15px #f9004d;  */
 }
 .project h2{
     color: #f9004d;
-    font-size: 45px;
-    padding: 5px;
+    font-size: 60px;
+    padding: 30px;
     letter-spacing: 8px;
     font-weight: bold;
+    margin: 0;
+    background-image: linear-gradient( rgb(26, 25, 25),rgb(53, 45, 53));
 }
 .project h2:hover{
-    color: #b14668;
-    letter-spacing: 30px;
+    color: rgba(226, 135, 226, 0.8);
+    /* letter-spacing: 30px; */
 }
+
 /* .project li{
     color: white;
     font-size: 30px;
 
 } */
-.project p{
+.project li{
     color: white;
+    list-style-type: decimal;
     padding: 20px;
-    font-size: 30px;
+    font-size: 35px;
     text-align: justify;
-    padding-top: 30px;
+    padding-top: 40px;
     text-align: center;
     display: flex;
     padding-left:38%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 @media screen and (max-width:600px)
 {
     .header{
         margin-right: 0;
+        padding-right: 40px;
     }
     .about{
         width: 1030px;
+        width: 100%;
     
     }
     .about p{
@@ -365,15 +377,14 @@ footer p{
         padding: 20px;
         padding-right: 20px;
     }
-    body{
-        width: 1000px;
-    }
+     body{
+        width: 1100px;
+     }
     .content{
         /* padding-left: 80px; */
         margin-left: 50%;
     }
-    
+   
     
 }
-    
     
